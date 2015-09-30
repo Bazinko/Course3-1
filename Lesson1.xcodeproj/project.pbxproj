@@ -13,11 +13,10 @@
 		AACFAF391BAF4F3C00BA7C90 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF381BAF4F3C00BA7C90 /* LoginViewController.m */; };
 		AACFAF3C1BAF4F3C00BA7C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACFAF3A1BAF4F3C00BA7C90 /* Main.storyboard */; };
 		AACFAF3E1BAF4F3C00BA7C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACFAF3D1BAF4F3C00BA7C90 /* Assets.xcassets */; };
-		AACFAF411BAF4F3C00BA7C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACFAF3F1BAF4F3C00BA7C90 /* LaunchScreen.storyboard */; };
-		AACFAF4A1BAF51A200BA7C90 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF491BAF51A200BA7C90 /* KeyboardViewController.m */; settings = {ASSET_TAGS = (); }; };
-		AACFAF4D1BAF5B0100BA7C90 /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF4C1BAF5B0100BA7C90 /* UIViewController+Extensions.m */; settings = {ASSET_TAGS = (); }; };
-		AACFAF501BAF5BA500BA7C90 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF4F1BAF5BA500BA7C90 /* NetManager.m */; settings = {ASSET_TAGS = (); }; };
-		AACFAF531BAF5F9D00BA7C90 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF521BAF5F9D00BA7C90 /* AppViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AACFAF4A1BAF51A200BA7C90 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF491BAF51A200BA7C90 /* KeyboardViewController.m */; };
+		AACFAF4D1BAF5B0100BA7C90 /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF4C1BAF5B0100BA7C90 /* UIViewController+Extensions.m */; };
+		AACFAF501BAF5BA500BA7C90 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF4F1BAF5BA500BA7C90 /* NetManager.m */; };
+		AACFAF531BAF5F9D00BA7C90 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF521BAF5F9D00BA7C90 /* AppViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		AACFAF381BAF4F3C00BA7C90 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AACFAF3B1BAF4F3C00BA7C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AACFAF3D1BAF4F3C00BA7C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AACFAF401BAF4F3C00BA7C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACFAF421BAF4F3C00BA7C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACFAF481BAF51A200BA7C90 /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		AACFAF491BAF51A200BA7C90 /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				AACFAF341BAF4F3C00BA7C90 /* AppDelegate.h */,
 				AACFAF351BAF4F3C00BA7C90 /* AppDelegate.m */,
 				AACFAF3D1BAF4F3C00BA7C90 /* Assets.xcassets */,
-				AACFAF3F1BAF4F3C00BA7C90 /* LaunchScreen.storyboard */,
 				AACFAF321BAF4F3C00BA7C90 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -182,7 +179,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACFAF411BAF4F3C00BA7C90 /* LaunchScreen.storyboard in Resources */,
 				AACFAF3E1BAF4F3C00BA7C90 /* Assets.xcassets in Resources */,
 				AACFAF3C1BAF4F3C00BA7C90 /* Main.storyboard in Resources */,
 			);
@@ -247,14 +243,6 @@
 				AACFAF3B1BAF4F3C00BA7C90 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AACFAF3F1BAF4F3C00BA7C90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AACFAF401BAF4F3C00BA7C90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

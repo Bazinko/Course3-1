@@ -76,19 +76,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NSNumber *number = self.items[indexPath.row];
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Change value" message:[NSString stringWithFormat:@"Enter new value for %@", number] preferredStyle:UIAlertControllerStyleAlert];
-    __weak UIAlertController *wAlert = alert;
-    [alert addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
-        textField.keyboardType = UIKeyboardTypeNumberPad;
-    }];
-    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        UITextField *input = wAlert.textFields.firstObject;
-        NSNumber *value = @([input.text integerValue]);
-        [self.items replaceObjectAtIndex:indexPath.row withObject:value];
-    }]];
-    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
-    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)dealloc {
