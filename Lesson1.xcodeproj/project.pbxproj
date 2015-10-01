@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADF4AED1BBD339B00D7B616 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF4AEC1BBD339B00D7B616 /* RegistrationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1ADF4AF91BBD377800D7B616 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF4AF81BBD377800D7B616 /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
+		1ADF4AFC1BBD378900D7B616 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF4AFB1BBD378900D7B616 /* Object.m */; settings = {ASSET_TAGS = (); }; };
+		1ADF4AFF1BBD38CE00D7B616 /* CreatingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF4AFE1BBD38CE00D7B616 /* CreatingCellViewController.m */; settings = {ASSET_TAGS = (); }; };
 		817A811F44575E568F811FEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E220F698D5D9139BD48EC5 /* libPods.a */; };
 		AACFAF331BAF4F3C00BA7C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF321BAF4F3C00BA7C90 /* main.m */; };
 		AACFAF361BAF4F3C00BA7C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAF351BAF4F3C00BA7C90 /* AppDelegate.m */; };
@@ -21,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		1280017CB7DB603830FB2A4E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1ADF4AEB1BBD339B00D7B616 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		1ADF4AEC1BBD339B00D7B616 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		1ADF4AF71BBD377800D7B616 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		1ADF4AF81BBD377800D7B616 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		1ADF4AFA1BBD378900D7B616 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		1ADF4AFB1BBD378900D7B616 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+		1ADF4AFD1BBD38CE00D7B616 /* CreatingCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatingCellViewController.h; sourceTree = "<group>"; };
+		1ADF4AFE1BBD38CE00D7B616 /* CreatingCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatingCellViewController.m; sourceTree = "<group>"; };
 		1BCC4EB37DAB47EE44534B06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		40E220F698D5D9139BD48EC5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACFAF2E1BAF4F3C00BA7C90 /* Lesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +66,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ADF4AEE1BBD36DB00D7B616 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF4AF31BBD371C00D7B616 /* CreateCell */,
+				1ADF4AF21BBD370B00D7B616 /* Keyboard */,
+				1ADF4AF11BBD36F000D7B616 /* Registration */,
+				1ADF4AF01BBD36EB00D7B616 /* App */,
+				1ADF4AEF1BBD36E200D7B616 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1ADF4AEF1BBD36E200D7B616 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAF371BAF4F3C00BA7C90 /* LoginViewController.h */,
+				AACFAF381BAF4F3C00BA7C90 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		1ADF4AF01BBD36EB00D7B616 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAF511BAF5F9D00BA7C90 /* AppViewController.h */,
+				AACFAF521BAF5F9D00BA7C90 /* AppViewController.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		1ADF4AF11BBD36F000D7B616 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF4AEB1BBD339B00D7B616 /* RegistrationViewController.h */,
+				1ADF4AEC1BBD339B00D7B616 /* RegistrationViewController.m */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		1ADF4AF21BBD370B00D7B616 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAF481BAF51A200BA7C90 /* KeyboardViewController.h */,
+				AACFAF491BAF51A200BA7C90 /* KeyboardViewController.m */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+		1ADF4AF31BBD371C00D7B616 /* CreateCell */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF4AFD1BBD38CE00D7B616 /* CreatingCellViewController.h */,
+				1ADF4AFE1BBD38CE00D7B616 /* CreatingCellViewController.m */,
+			);
+			name = CreateCell;
+			sourceTree = "<group>";
+		};
+		1ADF4AF41BBD372F00D7B616 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAF4E1BAF5BA500BA7C90 /* NetManager.h */,
+				AACFAF4F1BAF5BA500BA7C90 /* NetManager.m */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		1ADF4AF51BBD373C00D7B616 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF4AF71BBD377800D7B616 /* DataManager.h */,
+				1ADF4AF81BBD377800D7B616 /* DataManager.m */,
+				1ADF4AFA1BBD378900D7B616 /* Object.h */,
+				1ADF4AFB1BBD378900D7B616 /* Object.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		1ADF4AF61BBD375800D7B616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAF4B1BAF5B0100BA7C90 /* UIViewController+Extensions.h */,
+				AACFAF4C1BAF5B0100BA7C90 /* UIViewController+Extensions.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9A949EFC50BA0350FD709EEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,17 +181,11 @@
 		AACFAF301BAF4F3C00BA7C90 /* Lesson1 */ = {
 			isa = PBXGroup;
 			children = (
-				AACFAF4E1BAF5BA500BA7C90 /* NetManager.h */,
-				AACFAF4F1BAF5BA500BA7C90 /* NetManager.m */,
+				1ADF4AF61BBD375800D7B616 /* Model */,
+				1ADF4AF51BBD373C00D7B616 /* Store */,
+				1ADF4AF41BBD372F00D7B616 /* Net */,
+				1ADF4AEE1BBD36DB00D7B616 /* Controllers */,
 				AACFAF3A1BAF4F3C00BA7C90 /* Main.storyboard */,
-				AACFAF481BAF51A200BA7C90 /* KeyboardViewController.h */,
-				AACFAF491BAF51A200BA7C90 /* KeyboardViewController.m */,
-				AACFAF4B1BAF5B0100BA7C90 /* UIViewController+Extensions.h */,
-				AACFAF4C1BAF5B0100BA7C90 /* UIViewController+Extensions.m */,
-				AACFAF371BAF4F3C00BA7C90 /* LoginViewController.h */,
-				AACFAF381BAF4F3C00BA7C90 /* LoginViewController.m */,
-				AACFAF511BAF5F9D00BA7C90 /* AppViewController.h */,
-				AACFAF521BAF5F9D00BA7C90 /* AppViewController.m */,
 				AACFAF311BAF4F3C00BA7C90 /* Supporting Files */,
 			);
 			path = Lesson1;
@@ -225,11 +317,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACFAF4D1BAF5B0100BA7C90 /* UIViewController+Extensions.m in Sources */,
+				1ADF4AED1BBD339B00D7B616 /* RegistrationViewController.m in Sources */,
+				1ADF4AFF1BBD38CE00D7B616 /* CreatingCellViewController.m in Sources */,
 				AACFAF501BAF5BA500BA7C90 /* NetManager.m in Sources */,
 				AACFAF391BAF4F3C00BA7C90 /* LoginViewController.m in Sources */,
 				AACFAF361BAF4F3C00BA7C90 /* AppDelegate.m in Sources */,
 				AACFAF531BAF5F9D00BA7C90 /* AppViewController.m in Sources */,
 				AACFAF331BAF4F3C00BA7C90 /* main.m in Sources */,
+				1ADF4AF91BBD377800D7B616 /* DataManager.m in Sources */,
+				1ADF4AFC1BBD378900D7B616 /* Object.m in Sources */,
 				AACFAF4A1BAF51A200BA7C90 /* KeyboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
